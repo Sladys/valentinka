@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="heart">
+      <img class="heart-img" src="./img/vecteezy_pink-heart-shape-icon-like-or-love-symbol-for-valentine-s_18842643.png" alt="сердешко">
+      <p class="text1">С праздником красивая милашка <br/> оставайся такой же доброй <br/> и почаще улыбайся</p>
+      <p class="text2">У тебя все получиться <br/> ты со всем справишься <br/> ты же умничка как иначе</p>
+      <p class="text3">Тык мышкой</p>
+      <p class="hidden text4">Вы получаете подарочный купон на 10 сказок и бесконечные обнимашки</p>
+      <img class="heart-img-1" src="./img/pngwing.com.png" alt="сердешко">
+      <img class="heart-img-2" src="./img/pngwing.com.png" alt="сердешко">
+    </div>
+  </div>
+  <script>
+    let button = document.querySelector('.text3');
+    let par = document.querySelector('.text4');
+    button.onclick = function () {
+      par.classList.remove('hidden'); 
+    }
+  </script>
+</body>
+</html>
